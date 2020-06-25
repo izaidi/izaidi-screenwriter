@@ -1,0 +1,72 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0006ff;
+  color: white;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.h {
+  font-weight: bold;
+}
+
+.i {
+  font-style: italic;
+}
+
+
+pre {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.landing pre span {
+  opacity: 0;
+}
+
+.landing {
+  padding-left: 15px;
+  border-left: 3px solid white;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  left: -50px;
+  top: 150px;
+  margin-bottom: 150px;
+  opacity: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .landing {
+    left: 0;
+    padding: 0;
+    top: 50px;
+    border: 0;
+    background: none;
+    margin-bottom: 225px;
+  }
+
+}
