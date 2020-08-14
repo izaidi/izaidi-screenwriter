@@ -232,6 +232,10 @@ button:hover {
 	cursor: pointer;
 }
 
+input[type="button"]:focus {
+	outline: none;
+}
+
 .phone-number {
 	font-size: 24px;
 }
